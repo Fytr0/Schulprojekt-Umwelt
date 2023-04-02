@@ -1,0 +1,192 @@
+/* Damit alle Browser gleich funktionieren */
+css
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+/* Normales Css */
+
+/* Navigationleiste */
+div.NavBar {
+  width: 100%;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 17px;
+}
+
+#Icon {
+    width: 45px;
+    height: 40px;
+
+    padding-right: 10px;
+
+    float: left;
+}
+
+#Icon:hover {
+    rotate: 360deg;
+    transition-duration: 1s;
+}
+
+button.Navbar {
+    width: 13%;
+    height: 40px;
+
+    border: none;
+    background-color: #fff;
+
+    padding-top: 5px;
+}
+
+button.Navbar:hover {
+    background-color: #4BFF26;
+
+    transition-duration: 0.5s;
+}
+
+/* Titelbild*/
+
+#Titelbild {
+  width: 100%;
+
+  padding: none;
+}
+
+/* Einleitungs Text */
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+
+  font-size: 25px;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+
+div.Einleitung {
+  width: 75%;
+  height: fit-content;
+
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  text-align: center;
+}
+
+/* Link Karten */
+
+div.Folgen, div.Etwas_tun, div.Nachhaltig, div.Aktionen, div.Projekte {
+
+  width: 70%;
+  height: 100%;
+
+  margin-top: 100px;
+  margin-right: 100px;
+
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  padding-bottom: 100px;
+}
+
+b {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+
+  font-size: 20px;
+  object-fit: scale-down;
+  word-spacing: 3px;
+  line-height: 30px;
+
+  padding-top: 10px;
+}
+
+div.Text {
+  width: 600px;
+  max-width: 100%;
+
+  text-align: left;
+
+  padding-top: 5%;
+
+  float: right;
+}
+
+#Folgen_Bild, #Etwas_tun_Bild, #Nachhaltig_Bild, #Aktionen_Bild, #Projekte_Bild {
+  width: 650px;
+  max-width: 100%;
+
+  padding-right: 5%; 
+}
+
+#Text_Links {
+  width: 150px;
+  max-width: 100%;
+  height: 60px;
+
+  background-color: #fff;
+  color: #000;
+  
+  border: solid #797979;
+
+  margin-bottom: 100px;
+
+  float: right;
+}
+
+#Text_Links:hover {
+  background-color: #51ab41;
+
+  border: solid;
+  border-color: #51ab41;
+
+  transition-duration: 0.5s;
+}
