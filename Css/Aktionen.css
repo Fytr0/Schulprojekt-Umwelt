@@ -1,0 +1,170 @@
+/* Damit alle Browser gleich funktionieren */
+css
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+/* Normales Css */
+
+/* Navigationleiste */
+div.NavBar {
+  width: 100%;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#Icon {
+    width: 45px;
+
+    padding-right: 10px;
+
+    float: left;
+}
+
+#Icon:hover {
+    rotate: 360deg;
+    transition-duration: 1s;
+}
+
+button.Navbar {
+    width: 13%;
+    height: 40px;
+
+    border: none;
+    background-color: #fff;
+
+    padding-top: 5px;
+}
+
+button.Navbar:hover {
+    background-color: #4BFF26;
+
+    transition-duration: 0.5s;
+}
+
+/* Titelbild*/
+
+#Titelbild {
+  width: 100%;
+
+  padding: none;
+}
+
+
+/* Link Karten */
+
+div.Dreck-Weg-Erkrath, div.Dreck-Weg-Düsseldorf, div.Rhine-Clean-Up {
+
+  width: 70%;
+  height: fit-content;
+
+  display: inline-block;
+
+  margin-top: 100px;
+  margin-right: 100px;
+
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+
+}
+
+b {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+
+  font-size: 20px;
+  object-fit: scale-down;
+  word-spacing: 3px;
+  line-height: 30px;
+
+  padding-top: 10px;
+}
+
+div.Text {
+  width: 600px;
+  max-width: 100%;
+  height: fit-content;
+
+  text-align: left;
+
+  padding-top: 5%;
+  margin-bottom: 100px;
+
+  float: right;
+}
+
+#Bild {
+  width: 650px;
+  max-width: 100%;
+
+  padding-top: 5%;
+  padding-right: 5%; 
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #51ab41;
+
+  font-size: 30px;
+
+  padding-bottom: 15px;
+}
+
+c {
+  color: #4BFF26;
+  text-decoration: underline;
+}
+
+c:hover {
+  color: rgb(101, 101, 255);
+  cursor: default;
+}
