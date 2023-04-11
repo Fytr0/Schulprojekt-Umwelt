@@ -127,67 +127,54 @@ div.Einleitung {
 
 div.Folgen, div.Etwas_tun, div.Nachhaltig, div.Aktionen, div.Projekte {
 
-  width: 70%;
-  height: 100%;
+  width: 100%;
+  height: fit-content;
 
-  margin-top: 100px;
-  margin-right: 100px;
-
-  padding-left: 12.5%;
-  padding-right: 12.5%;
-  padding-bottom: 100px;
+  margin-top: 5%;
+  margin-bottom: 25%;
 }
 
-b {
+
+div.Text {
   font-family: 'Open Sans', sans-serif;
   color: #000;
 
-  font-size: 20px;
+  font-size: 2vw;
   object-fit: scale-down;
-  word-spacing: 3px;
-  line-height: 30px;
-
-  padding-top: 10px;
-}
-
-div.Text {
-  width: 600px;
-  max-width: 100%;
+  word-spacing: 5px;
+  line-height: 40px;
 
   text-align: left;
 
-  padding-top: 5%;
+  width: 40%;
+
+  margin-right: 10%;
 
   float: right;
 }
 
 #Folgen_Bild, #Etwas_tun_Bild, #Nachhaltig_Bild, #Aktionen_Bild, #Projekte_Bild {
-  width: 650px;
+  width: 40%;
+  min-width: 300px;
   max-width: 100%;
 
+  margin-left: 5%;
   padding-right: 5%; 
 }
 
-#Text_Links {
-  width: 150px;
-  max-width: 100%;
-  height: 60px;
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: #4BFF26;
 
-  background-color: #fff;
-  color: #000;
-  
-  border: solid #797979;
-
-  margin-bottom: 100px;
-
-  float: right;
+  font-size: 2vw;
+  text-decoration: underline;
+  object-fit: scale-down;
+  word-spacing: 5px;
+  line-height: 40px;
 }
 
-#Text_Links:hover {
-  background-color: #51ab41;
-
-  border: solid;
-  border-color: #51ab41;
+a:hover {
+  color: #238710;
 
   transition-duration: 0.5s;
 }

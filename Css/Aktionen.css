@@ -130,7 +130,7 @@ b {
 }
 
 div.Text {
-  width: 600px;
+  width: 450px;
   max-width: 100%;
   height: fit-content;
 
@@ -143,7 +143,8 @@ div.Text {
 }
 
 #Bild {
-  width: 650px;
+  width: 40%;
+  min-width: 300px;
   max-width: 100%;
 
   padding-top: 5%;
