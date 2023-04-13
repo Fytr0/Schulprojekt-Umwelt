@@ -162,7 +162,7 @@ div.Text {
   padding-right: 5%; 
 }
 
-a {
+a.Link {
   font-family: 'Open Sans', sans-serif;
   color: #4BFF26;
 
@@ -173,7 +173,7 @@ a {
   line-height: 40px;
 }
 
-a:hover {
+a.Link:hover {
   color: #238710;
 
   transition-duration: 0.5s;
