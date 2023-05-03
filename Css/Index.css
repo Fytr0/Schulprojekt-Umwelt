@@ -139,10 +139,9 @@ div.Text {
   font-family: 'Open Sans', sans-serif;
   color: #000;
 
-  font-size: 2vw;
-  object-fit: scale-down;
-  word-spacing: 5px;
-  line-height: 40px;
+  font-size: 25px;
+  word-spacing: 3px;
+  line-height: 30px;
 
   text-align: left;
 
@@ -165,12 +164,11 @@ div.Text {
 a.Link {
   font-family: 'Open Sans', sans-serif;
   color: #4BFF26;
-
-  font-size: 2vw;
+  
   text-decoration: underline;
-  object-fit: scale-down;
-  word-spacing: 5px;
-  line-height: 40px;
+  font-size: 25px;
+  word-spacing: 3px;
+  line-height: 30px;
 }
 
 a.Link:hover {
