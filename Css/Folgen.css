@@ -141,9 +141,8 @@ div.Text {
 
   float: right;
 }
-
-#Bild {
-  width: 450px;
+.Bild {
+  width: 40%;
   min-width: 300px;
   max-width: 100%;
 
